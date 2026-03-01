@@ -235,6 +235,14 @@
     }
     .card.menu:hover { border-color: rgba(201,168,76,0.5); }
 
+    /* Uber Eats special style */
+    .card.uber {
+      background: linear-gradient(135deg, #fffdf5 0%, #fdf6e3 100%);
+      border-color: rgba(0,0,0,0.12);
+    }
+    .card.uber:hover { border-color: rgba(0,0,0,0.28); }
+    .card-icon.uber-icon { background: linear-gradient(145deg, #f0f0f0, #e0e0e0); }
+
     /* Location special style */
     .card.location {
       background: linear-gradient(135deg, #f5fafe 0%, #e8f4fd 100%);
@@ -366,6 +374,23 @@
         @manumanu.mx
       </a>
     </header>
+
+    <!-- ── Ordenar en línea ── -->
+    <p class="section-label">🛵 Ordenar en línea</p>
+
+    <a class="card uber" href="https://www.order.store/store/manu-bocado-libanes/lz4kAddIUIq3krfoQeGwoA" target="_blank" rel="noopener">
+      <div class="card-icon uber-icon" style="font-size:20px;">🛵</div>
+      <div class="card-text">
+        <div class="card-title">Pedir por Uber Eats</div>
+        <div class="card-sub">Entrega a domicilio · Ambas sucursales</div>
+      </div>
+      <svg class="card-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+    <div class="divider"><span class="divider-leaf">🍃</span></div>
 
     <!-- ── Menú ── -->
     <p class="section-label">📖 Menú</p>
